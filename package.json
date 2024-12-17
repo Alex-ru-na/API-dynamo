@@ -1,0 +1,24 @@
+{
+  "name": "dynamo",
+  "version": "1.0.0",
+  "description": "test dynamo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx ts-node src/index.ts"
+  },
+  "author": "alex",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.714.0",
+    "@aws-sdk/lib-dynamodb": "^3.714.0",
+    "aws-sdk": "^2.1692.0",
+    "express": "^4.21.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
